@@ -36,16 +36,20 @@ FindMe is a mobile application designed to enhance connectivity and safety by al
 
 2.  **Install Dependencies**
 
+    ```sh
     flutter pub get
+    ```
 
 3.  **Configure Firebase**
 
-    Add your google-services.json for Android in android/app/.
+    Add your google-services.json for Android in android/app/.<br>
     Add your GoogleService-Info.plist for iOS in ios/Runner/.
 
 4.  **Run the App**
 
+    ```sh
     flutter run
+    ```
 
 ## Project Status
 
@@ -53,9 +57,9 @@ This project is currently complete, with plans for future updates based on user 
 
 ## Future Enhancements
 
-Geofencing: Alerts when entering or leaving predefined areas.
-Group Sharing: Share location with multiple users simultaneously.
-Enhanced Privacy Controls: More granular control over who can see your location.
+- **Geofencing**: Alerts when entering or leaving predefined areas.
+- **Group Sharing**: Share location with multiple users simultaneously.
+- **Enhanced Privacy Controls**: More granular control over who can see your location.
 
 ## Contributing
 
@@ -67,5 +71,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgements
 
-Google Maps API for geolocation services.
-Firebase for backend support.
+- **Google Maps API for geolocation services**.
+- **Firebase for backend support**.
