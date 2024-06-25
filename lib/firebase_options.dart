@@ -50,7 +50,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDhRY6z0h1SC0R-_KOS3Z4GN-PoMMDTNjU',
+    apiKey: '[YOUR API KEY]',
     appId: '1:574042151040:android:ffb676503a439bb7bd6e65',
     messagingSenderId: '574042151040',
     projectId: 'yearthreeproject',
@@ -59,13 +59,14 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAtkQgQKuFBkAed7J2C-QrQYXJY24aGG44',
+    apiKey: '[YOUR API KEY]',
     appId: '1:574042151040:ios:8ea6f222f086bc6abd6e65',
     messagingSenderId: '574042151040',
     projectId: 'yearthreeproject',
     databaseURL: 'https://yearthreeproject-default-rtdb.firebaseio.com',
     storageBucket: 'yearthreeproject.appspot.com',
-    iosClientId: '574042151040-f98899ue4nt4lp68fv65c9au4m459hm6.apps.googleusercontent.com',
+    iosClientId:
+        '574042151040-f98899ue4nt4lp68fv65c9au4m459hm6.apps.googleusercontent.com',
     iosBundleId: 'com.example.googleMapLive',
   );
 }
