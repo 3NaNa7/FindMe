@@ -1,4 +1,4 @@
-# FindMe - Location Sharing Application
+# FindMe - Location Sharing and Tracking Application
 
 ## Overview
 
